@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	
+	<servlet>
+		<description></description>
+		<display-name>TweetServlet</display-name>
+		<servlet-name>TweetServlet</servlet-name>
+		<servlet-class>org.nate.javatwitter.servlet.TweetServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>TweetServlet</servlet-name>
+		<url-pattern>/servlet/tweet/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>FollowServlet</display-name>
+		<servlet-name>FollowServlet</servlet-name>
+		<servlet-class>org.nate.javatwitter.servlet.FollowServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FollowServlet</servlet-name>
+		<url-pattern>/servlet/follow/*</url-pattern>
+	</servlet-mapping>
+</web-app>

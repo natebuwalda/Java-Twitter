@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.39" errors="0" skipped="0" tests="2" name="org.nate.javatwitter.servlet.FollowServletTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\java\sun\sdk\jdk1.6.0_04\jre\bin"/>
+    <property name="java.vm.version" value="10.0-b19"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\github\nbuwalda\JavaTwitter"/>
+    <property name="java.runtime.version" value="1.6.0_04-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\github\nbuwalda\JavaTwitter"/>
+    <property name="java.endorsed.dirs" value="C:\java\sun\sdk\jdk1.6.0_04\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\DOCUME~1\nbuwalda\LOCALS~1\Temp\surefirebooter64806.jar"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\nbuwalda\LOCALS~1\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\sun\sdk\jdk1.6.0_04\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ruby\bin;C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\cygwin\bin;C:\spring-roo-1.0.2.RELEASE\bin;C:\Program Files\JavaFX\javafx-sdk1.2\bin;C:\Program Files\JavaFX\javafx-sdk1.2\emulator\bin;C:\Ruby19\bin;C:\Ruby\bin;C:\ruby\bin;C:\java\maven\maven-2.1.0\bin;C:\java\sun\sdk\jdk1.6.0_04\bin;C:\java\grails\grails-1.0.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Support Tools\;C:\java\ProgrammerTools\bin;C:\spring-roo\roo-1.0.0.M1\bin;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\RSA Security\RSA Authentication Agent\Agenthost Autoreg Utility"/>
+    <property name="surefire.test.class.path" value="C:\github\nbuwalda\JavaTwitter\target\test-classes;C:\github\nbuwalda\JavaTwitter\target\classes;c:\java\maven-local-repo\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;c:\java\maven-local-repo\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;c:\java\maven-local-repo\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;c:\java\maven-local-repo\log4j\log4j\1.2.15\log4j-1.2.15.jar;c:\java\maven-local-repo\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;c:\java\maven-local-repo\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;c:\java\maven-local-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;c:\java\maven-local-repo\junit\junit\4.7\junit-4.7.jar;c:\java\maven-local-repo\org\mockito\mockito-core\1.8.2\mockito-core-1.8.2.jar;c:\java\maven-local-repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;c:\java\maven-local-repo\org\objenesis\objenesis\1.0\objenesis-1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\nbuwalda"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nbuwalda"/>
+    <property name="java.class.path" value="C:\github\nbuwalda\JavaTwitter\target\test-classes;C:\github\nbuwalda\JavaTwitter\target\classes;c:\java\maven-local-repo\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;c:\java\maven-local-repo\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;c:\java\maven-local-repo\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;c:\java\maven-local-repo\log4j\log4j\1.2.15\log4j-1.2.15.jar;c:\java\maven-local-repo\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;c:\java\maven-local-repo\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;c:\java\maven-local-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;c:\java\maven-local-repo\junit\junit\4.7\junit-4.7.jar;c:\java\maven-local-repo\org\mockito\mockito-core\1.8.2\mockito-core-1.8.2.jar;c:\java\maven-local-repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;c:\java\maven-local-repo\org\objenesis\objenesis\1.0\objenesis-1.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\java\sun\sdk\jdk1.6.0_04\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_04"/>
+    <property name="java.ext.dirs" value="C:\java\sun\sdk\jdk1.6.0_04\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\java\sun\sdk\jdk1.6.0_04\jre\lib\resources.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\lib\rt.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\lib\sunrsasign.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\lib\jsse.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\lib\jce.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\lib\charsets.jar;C:\java\sun\sdk\jdk1.6.0_04\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="c:\java\maven-local-repo"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.39" classname="org.nate.javatwitter.servlet.FollowServletTest" name="testGet"/>
+  <testcase time="0" classname="org.nate.javatwitter.servlet.FollowServletTest" name="testPost"/>
+</testsuite>
